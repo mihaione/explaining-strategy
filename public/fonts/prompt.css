@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "prompt";
+    src:
+        url("Prompt-Thin.ttf") format("ttf");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
