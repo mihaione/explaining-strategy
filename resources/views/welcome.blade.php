@@ -101,7 +101,7 @@
                             </div>
                         </li>
                         <li class="text-gray-700 dark:text-gray-300">
-                            <a href="#home" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                            <a href="#home" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-blue-700 dark:hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                 <span class="hidden lg:block">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -111,27 +111,27 @@
                             </a>
                         </li>
                         <li class="text-gray-700 dark:text-gray-300">
-                            <a href="#overview" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                            <a href="#overview" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                 Overview
                             </a>
                         </li>
                         <li>
-                            <a href="#curriculum" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                            <a href="#curriculum" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                 Curriculum
                             </a>
                         </li>
                         <li>
-                            <a href="#schedule" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                            <a href="#schedule" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                 Schedule
                             </a>
                         </li>
                         <li>
-                            <a href="#enroll" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                            <a href="#enroll" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                 Enrollment
                             </a>
                         </li>
                         <li>
-                            <a href="{{ url('/certificates') }}" @click="navbarOpen = !navbarOpen" class="flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                            <a href="{{ url('/certificates') }}" @click="navbarOpen = !navbarOpen" class="flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                 Certification
                             </a>
                         </li>
@@ -1093,16 +1093,16 @@
                                     Quick Access
                                 </h2>
                                 <div class="space-y-3 text-center sm:text-left">
-                                    <a href="#overview" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="#overview" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Course Overview
                                     </a>
-                                    <a href="#curriculum" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="#curriculum" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Course Curriculum
                                     </a>
-                                    <a href="#schedule" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="#schedule" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Course Schedule
                                     </a>
-                                    <a href="#enroll" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="#enroll" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Cohort Enrollment
                                     </a>
                                 </div>
@@ -1140,13 +1140,13 @@
                                     Links
                                 </h2>
                                 <div class="space-y-3 text-center lg:text-left">
-                                    <a href="{{ url('/privacy') }}" class="block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="{{ url('/privacy') }}" class="block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Privacy Policy
                                     </a>
-                                    <a href="{{ url('/terms') }}" class="block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="{{ url('/terms') }}" class="block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Terms & Conditions
                                     </a>
-                                    <a href="https://twitter.com/i/communities/1731110251720589457" target="_blank" title="Go to X / Twitter" class="block items-center text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="https://twitter.com/i/communities/1731110251720589457" target="_blank" title="Go to X / Twitter" class="block items-center text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         <div class="w-full flex items-center lg:items-start">
                                             <div class="flex mx-auto lg:ml-0">
                                                 <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" class="mt-[4px] mr-2">
@@ -1156,7 +1156,7 @@
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="https://www.linkedin.com/company/101211805" target="_blank" title="Go to LinkedIn"  class="block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="https://www.linkedin.com/company/101211805" target="_blank" title="Go to LinkedIn"  class="block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         <div class="flex content-center text-center">
                                             <div class="flex mx-auto lg:ml-0">
                                                 <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512" class="mt-[4px] mr-2">
@@ -1191,7 +1191,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 511.471" class="mt-[4px] mr-2">
                                         <path fill="#FF681A" d="M0 0h448v62.804H0V0zm0 229.083h448v282.388L223.954 385.808 0 511.471V229.083zm0-114.542h448v62.804H0v-62.804z"/>
                                     </svg>
-                                    <a href="https://mionescu.substack.com" target="_blank" title="Go to LinkedIn"  class="block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                    <a href="https://mionescu.substack.com" target="_blank" title="Go to LinkedIn"  class="block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Substack Articles
                                     </a>
                                 </div>
@@ -1203,7 +1203,7 @@
                                             </a>
                                         </div>
                                         <div>
-                                            <a href="https://www.linkedin.com/pulse/course-remember-mihai-ionescu-wibff/" target="_blank" title="Read on LinkedIn" class="block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                            <a href="https://www.linkedin.com/pulse/course-remember-mihai-ionescu-wibff/" target="_blank" title="Read on LinkedIn" class="block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                                 A Course to Remember
                                             </a>
                                             <p class="flex items-center">
@@ -1225,7 +1225,7 @@
                                             </a>
                                         </div>
                                         <div>
-                                            <a href="https://www.linkedin.com/pulse/modeling-strategy-mihai-ionescu/" target="_blank" title="Read on Linked" class="block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                            <a href="https://www.linkedin.com/pulse/modeling-strategy-mihai-ionescu/" target="_blank" title="Read on Linked" class="block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                                 Modeling Strategy
                                             </a>
                                             <p class="flex items-center">
@@ -1247,7 +1247,7 @@
                                             </a>
                                         </div>
                                         <div>
-                                            <a href="https://www.linkedin.com/pulse/strategic-alignment-mihai-ionescu/" target="_blank" title="Read on Linked" class="block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                            <a href="https://www.linkedin.com/pulse/strategic-alignment-mihai-ionescu/" target="_blank" title="Read on Linked" class="block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                                 The Strategic Alignment
                                             </a>
                                             <p class="flex items-center">
@@ -1269,7 +1269,7 @@
                                             </a>
                                         </div>
                                         <div>
-                                            <a href="https://www.linkedin.com/newsletters/the-strategy-clockwork-6882375829570121728/" target="_blank" title="Read on Linked" class="block text-base font-medium text-gray-700 hover:text-orange-500 dark:text-gray-300 dark:hover:text-orange-500">
+                                            <a href="https://www.linkedin.com/newsletters/the-strategy-clockwork-6882375829570121728/" target="_blank" title="Read on Linked" class="block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                                 Strategy Clockwork
                                             </a>
                                             <p class="flex items-center">

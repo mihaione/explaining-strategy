@@ -1,4 +1,3 @@
-<?php header("strict-transport-security: max-age=2592000"); ?>
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" translate="no">
     <head>
@@ -44,18 +43,18 @@
                     </a>
                 </div>
 
-                <div class="w-full sm:max-w-2xl mt-6 flex flex-col items-center p-6 bg-[#F2F0FE] dark:bg-dark shadow-md overflow-hidden sm:rounded-lg prose dark:prose-invert">
-                    <h1 class="subtitle font-thin">Verify Certificate</h1>
-                    <p>Verify the authenticity of a certificate.</p>
+                <div class="w-full sm:max-w-2xl mt-6 flex flex-col items-center p-6 text-gray-700 dark:text-gray-300 bg-blue-400 dark:bg-gray-800 rounded-xl bg-opacity-10 shadow shadow-md overflow-hidden sm:rounded-lg">
+                    <h1 class="text-2xl text-blue-700 dark:text-orange-400 mb-4">Verify Certificate</h1>
+                    <div>Verify the authenticity of a certificate.</div>
                     <form action="{{ route('certificates') }}" method="POST">
                         @csrf
                         <div class="mt-4 ml-auto mr-auto">
                             <label for="code" class="block">Enter the Certificate ID:</label>
-                            <input type="text" name="code" id="code" class="mt-1 block w-5/6 min-w-[300px] rounded-md border-gray-300 shadow-sm focus:ring focus:ring-primary focus:ring-opacity-50 dark:bg-gray-900 text-black dark:text-dark dark:border-gray-600" placeholder="{{ $link }}" required>
+                            <input type="text" name="code" id="code" class="mt-1 block w-5/6 min-w-[300px] p-2 rounded-md border-gray-300 shadow-sm focus:ring focus:ring-primary focus:ring-opacity-50 bg-blue-400 dark:bg-gray-800 text-black dark:text-white dark:border-gray-600" required>
                             <div id="error-row" class="mt-2 block font-bold error-row">{{ $errors->first('code') }}</div>
                         </div>
                         <div class="mt-4 flex flex-col items-center">
-                            <button type="submit" id="submit" class="mt-4 max-w-sm py-2 px-10 text-base font-bold rounded-full transition-all border border-primary hover:border-black">
+                            <button type="submit" id="submit" class="mt-4 max-w-sm py-2 px-10 bg-white dark:bg-gray-800 rounded-xl border border-gray-400 text-base font-semibold text-gray-700 hover:bg-gray-200 hover:border-black dark:hover:border-gray-600 hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-orange-300">
                                 Verify
                             </button>
                         </div>
