@@ -217,7 +217,7 @@
                                         <div class="whitespace-nowrap text-center text-white -mt-2 mb-3">
                                             Watch Intro
                                         </div>
-                                        <button class-="px-3 py-1 text-center" x-data x-on:click="$dispatch('open-modal', 'preview')">
+                                        <button class-="px-3 py-1 text-center" x-data x-on:click="$dispatch('open-modal', 'previewVideo')">
                                             <span class="w-[60px] h-[60px] rounded-full inline-flex items-center justify-center rounded-full border text-gray-200 hover:bg-gray-200 hover:border-black dark:hover:border-gray-600 hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-orange-300">
                                                 <svg class="fill-current" width="15" height="18" viewBox="0 0 15 18">
                                                     <path d="M15 9L-8.15666e-07 17.6603L-5.85622e-08 0.339746L15 9Z"/>
@@ -1313,14 +1313,32 @@
 
         </div>
 
-        <!-- Modal component -->
-        <x-modal name="preview" :show="false">
-            <h1 class="w-full p-4 text-xl text-orange-400 text-center">
-                Practice Environment Preview
-            </h1>
-            <video width="640" height="360" controls preload="none" class="w-full mx-auto p-4 pt-0">
-                <source src="{{ asset('downloads/RapidStrategy_Quick_Preview.mp4') }}" type="video/mp4">
-            </video>
+        <!-- Watch Video Modal -->
+        <x-modal name="previewVideo" :show="false" maxWidth="4xl" focusable>
+            <div
+                x-data
+                x-on:keydown.escape.window="$refs.previewVideo.pause(); $refs.previewVideo.currentTime = 0"
+                x-on:click.outside="$refs.previewVideo.pause(); $refs.previewVideo.currentTime = 0"
+            >
+                <div class="p-2">
+                    <h2 class="text-xl px-2 pt-2 font-semibold text-sky-700 dark:text-orange-500 mb-4">
+                        {{ __('Practice Platform Preview') }}
+                    </h2>
+
+                    <div class="relative">
+                        <video
+                            x-ref="previewVideo"
+                            controls
+                            class="w-full rounded-lg"
+                            preload="metadata"
+                            controlsList="nodownload"
+                            poster="{{ asset('images/hero/preview_cover.jpg') }}"
+                        >
+                            <source src="{{ asset('downloads/RapidStrategy_Quick_Preview.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
         </x-modal>
 
         <!-- JS Files -->
