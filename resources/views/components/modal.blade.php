@@ -1,7 +1,7 @@
 @props([
     'name',
     'show' => false,
-    'maxWidth' => '2xl'
+    'maxWidth' => '4xl'
 ])
 
 @php
@@ -11,6 +11,7 @@ $maxWidth = [
     'lg' => 'sm:max-w-lg',
     'xl' => 'sm:max-w-xl',
     '2xl' => 'sm:max-w-2xl',
+    '4xl' => 'sm:max-w-4xl',
 ][$maxWidth];
 @endphp
 
@@ -73,6 +74,10 @@ $maxWidth = [
         x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
         x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
     >
+        <div class="absolute w-full">
+            <x-heroicons::outline.x-mark x-on:click="$dispatch('close')"
+               class="w-6 h-6 mt-3 mr-4 ml-auto rtl:ml-4 rtl:mr-auto cursor-pointer text-blue-700 dark:text-orange-400 z-10"/>
+        </div>
         {{ $slot }}
     </div>
 </div>

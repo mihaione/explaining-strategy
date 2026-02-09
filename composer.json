@@ -20,6 +20,7 @@
         "livewire/volt": "^1.7.0",
         "masmerise/livewire-toaster": "^2.9.0",
         "resend/resend-laravel": "^0.23.0",
+        "wireui/heroicons": "*",
         "wireui/phosphoricons": "^2.4.0"
     },
     "require-dev": {
