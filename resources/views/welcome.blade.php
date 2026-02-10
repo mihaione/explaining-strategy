@@ -1040,10 +1040,10 @@
                                     <div class="text-lg lg:text-base mb-4 text-gray-700 dark:text-gray-300">
                                         Use the Course Prospectus together with the Educational Support Request Letter for obtaining course enrollment fee financing
                                         from your employer. The Prospectus includes the course curricula and cohort details.<br /><br />
-                                        <a href="{{ asset('/downloads/Course-Prospectus-Jan-Feb2026.pdf') }}" target="_blank" title="GO to LinkedIn"  class="block text-base font-medium text-orange-500 hover:text-orange-500 dark:text-orange-500 dark:hover:text-orange-500">
+                                        <a href="{{ asset('/downloads/Course-Prospectus-April2026.pdf') }}" target="_blank" title="GO to LinkedIn"  class="block text-base font-medium text-orange-500 hover:text-orange-500 dark:text-orange-500 dark:hover:text-orange-500">
                                             Download Prospectus
                                         </a>
-                                        (PDF 3.7MB)
+                                        (PDF 6.7MB)
                                     </div>
                                 </div>
                             </div>
@@ -1055,7 +1055,7 @@
                                     <div class="text-lg lg:text-base mb-4 text-gray-700 dark:text-gray-300">
                                         Use the Educational Support Request Letter together with the Course Prospectus for obtaining course enrollment fee financing
                                         from your employer. The Prospectus includes the course curricula and cohort details.<br /><br />
-                                        <a href="{{ asset('/downloads/Educational-Support-Request_template_Nov2025.docx') }}" target="_blank" title="GO to LinkedIn"  class="block text-base font-medium text-orange-500 hover:text-orange-500 dark:text-orange-500 dark:hover:text-orange-500">
+                                        <a href="{{ asset('/downloads/Educational-Support-Request_template_April2026.docx') }}" target="_blank" title="GO to LinkedIn"  class="block text-base font-medium text-orange-500 hover:text-orange-500 dark:text-orange-500 dark:hover:text-orange-500">
                                             Download the Educational Support Request Letter
                                         </a>
                                         (Microsoft Word .docx 17kB)
