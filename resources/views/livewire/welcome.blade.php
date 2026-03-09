@@ -83,7 +83,7 @@ new class extends Component {
         EARLY-BIRD & GROUPS
     </p>
     <p class="text-lg lg:text-base font-medium">
-        This fee is applicable for the enrollment before March 15, 2026 or of a group of 3 or more.
+        This fee is applicable for the enrollment before April 6, 2026 or of a group of 3 or more.
         The Early Bird and Groups discounts are not cumulative.
     </p>
     <p class="text-lg lg:text-base mb-3 mt-3 font-medium sm:text-xl">
