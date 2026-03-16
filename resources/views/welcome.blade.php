@@ -85,14 +85,14 @@
                     <ul class="block lg:flex text-3xl lg:text-lg font-roboto">
                         <li class="menu-switch items-center text-gray-700 dark:text-gray-300">
                             <div class="w-[120px] mx-auto md:w-full mr-4 mb-4">
-                                <label for="darkTogglerMenu" class="flex px-2 h-11 cursor-pointer items-center justify-center rounded-full bg-white dark:bg-gray-800 rounded-xl bg-opacity-20 dark:bg-[#1E2763]">
+                                <label for="darkTogglerMenu" class="flex px-2 h-11 cursor-pointer items-center justify-center rounded-full bg-white dark:bg-gray-800 bg-opacity-20">
                                     <input type="checkbox" name="darkToggler" id="darkTogglerMenu" class="sr-only" aria-label="darkToggler"/>
-                                    <span class="flex h-8 w-8 mr-4 items-center justify-center rounded-full bg-white dark:bg-gray-800 rounded-xl text-white dark:bg-transparent dark:text-gray-300">
+                                    <span class="flex h-8 w-8 mr-4 items-center justify-center bg-white dark:bg-gray-800 rounded-xl text-white dark:bg-transparent dark:text-gray-300">
                                         <svg class="fill-current" width="16" height="16" viewBox="0 0 16 16">
                                             <path d="M4.50663 3.2267L3.30663 2.03337L2.36663 2.97337L3.55996 4.1667L4.50663 3.2267ZM2.66663 7.00003H0.666626V8.33337H2.66663V7.00003ZM8.66663 0.366699H7.33329V2.33337H8.66663V0.366699ZM13.6333 2.97337L12.6933 2.03337L11.5 3.2267L12.44 4.1667L13.6333 2.97337ZM11.4933 12.1067L12.6866 13.3067L13.6266 12.3667L12.4266 11.1734L11.4933 12.1067ZM13.3333 7.00003V8.33337H15.3333V7.00003H13.3333ZM7.99996 3.6667C5.79329 3.6667 3.99996 5.46003 3.99996 7.6667C3.99996 9.87337 5.79329 11.6667 7.99996 11.6667C10.2066 11.6667 12 9.87337 12 7.6667C12 5.46003 10.2066 3.6667 7.99996 3.6667ZM7.33329 14.9667H8.66663V13H7.33329V14.9667ZM2.36663 12.36L3.30663 13.3L4.49996 12.1L3.55996 11.16L2.36663 12.36Z"/>
                                         </svg>
                                     </span>
-                                    <span class="flex h-8 w-8 items-center justify-center rounded-full bg-grey text-gray-700 dark:bg-white dark:bg-gray-800 rounded-xl dark:text-white">
+                                    <span class="flex h-8 w-8 items-center justify-center bg-grey text-gray-700  dark:bg-gray-800 rounded-xl dark:text-white">
                                         <svg class="fill-current" width="13" height="15" viewBox="0 0 13 15">
                                             <path d="M10.6111 12.855C11.591 12.1394 12.3151 11.1979 12.7723 10.1623C10.4824 10.4065 8.1342 9.46314 6.67948 7.47109C5.22476 5.47905 5.04093 2.95516 5.97054 0.848179C4.84491 0.968503 3.72768 1.37162 2.74781 2.08719C-0.224105 4.25747 -0.874706 8.43084 1.29558 11.4028C3.46586 14.3747 7.63923 15.0253 10.6111 12.855Z"/>
                                         </svg>
@@ -195,8 +195,13 @@
                                     </p>
                                 </div>
                                 <h1 class="sm:flex gap-8 text-2xl items-center lg:text-left sm:max-w-xl mt-8 mb-8">
-                                    <div class="font-lg text-blue-700 dark:text-orange-400 font-bold text-ocre">
-                                        April 7-30, 2026
+                                    <div>
+                                        <div class="font-lg text-blue-700 dark:text-orange-400 font-bold text-ocre">
+                                            April 7-30, 2026
+                                        </div>
+                                        <div class="font-md text-blue-700 dark:text-orange-400 text-ocre">
+                                            (the last edition)
+                                        </div>
                                     </div>
                                     <div class="flex flex-row item-center justify-center gap-2 mt-2">
                                         <a href="https://rapidstrategy.ai" target="_blank">
