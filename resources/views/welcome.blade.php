@@ -199,9 +199,6 @@
                                         <div class="font-lg text-blue-700 dark:text-orange-400 font-bold text-ocre">
                                             April 7-30, 2026
                                         </div>
-                                        <div class="font-md text-blue-700 dark:text-orange-400 text-ocre">
-                                            (the last edition)
-                                        </div>
                                     </div>
                                     <div class="flex flex-row item-center justify-center gap-2 mt-2">
                                         <a href="https://rapidstrategy.ai" target="_blank">
