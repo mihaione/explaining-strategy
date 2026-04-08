@@ -197,7 +197,7 @@
                                 <h1 class="sm:flex gap-8 text-2xl items-center lg:text-left sm:max-w-xl mt-8 mb-8">
                                     <div>
                                         <div class="font-lg text-blue-700 dark:text-orange-400 font-bold text-ocre">
-                                            April 7-30, 2026
+                                            A RapidStrategy feature.
                                         </div>
                                     </div>
                                     <div class="flex flex-row item-center justify-center gap-2 mt-2">
