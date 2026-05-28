@@ -801,16 +801,16 @@
                                     </div>
                                     <div class="mb-4">
                                         <span class="mb-3 mt-3 text-lg font-bold uppercase text-orange-500 sm:text-xl">
-                                          INDIVIDUAL (On-Demand)
+                                          SMALL TEAM (On-Demand)
                                         </span>
                                         <p class="text-lg lg:text-base font-medium">
-                                            This fee is applicable for individual enrollments of 3 or more persons in dedicated on-demand course editions. We employ a consistent
+                                            This fee is applicable for small teams enrollments of 3-5 persons in dedicated on-demand course editions. We employ a consistent
                                             <b>Fair Pricing Policy</b> that is applicable for each country, based on GDP per capita (<a href="https://www.worldbank.org/en/programs/icp/brief/VC_Uses" target="_blank" class="text-orange-500 hover:text-orange hover:underline">World Bank</a>) and Purchasing Power Parity.
                                             Select your country to get the specific enrollment fee.
                                             The course is not available in certain restricted countries (Russia, Belarus, Iran, N.Korea, etc.).
                                         </p>
                                         <p class="text-lg lg:text-base mb-3 mt-3 font-bold sm:text-xl">
-                                            Reference enrollment fee: <b>1,350 USD</b>.
+                                            Reference enrollment fee: <b>1,350 USD</b> per person.
                                         </p>
                                         <livewire:welcome/>
                                     </div>

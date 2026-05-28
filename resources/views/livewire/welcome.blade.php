@@ -80,7 +80,7 @@ new class extends Component {
         GROUPS (On-Demand)
     </p>
     <p class="text-lg lg:text-base font-medium">
-        This fee is applicable for group of 5 or more.
+        This fee is applicable for group of more than 5 persons.
     </p>
     <p class="text-lg lg:text-base mb-3 mt-3 font-medium sm:text-xl">
         @if (!$hasFees)
