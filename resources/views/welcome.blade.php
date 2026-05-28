@@ -793,15 +793,18 @@
                         <div class="mx-0 md:-mx-4 flex flex-wrap items-start">
                             <div class="w-full mt-4 px-6 lg:w-1/2">
                                 <div class="inset-y-0 left-0 text-gray-700 dark:text-gray-300">
-                                    <h2 class="mb-3 text-3xl font-lg text-blue-700 dark:text-orange-400 font-thin leading-tight text-black dark:text-white md:text-[45px]">
-                                        Enrollment Fee (On-Demand)
+                                    <h2 class="mb-3 text-3xl font-lg font-thin leading-tight text-black dark:text-white md:text-[45px]">
+                                        Enrollment Fee
                                     </h2>
+                                    <div class="mb-4 text-lg lg:text-base font-medium">
+                                        For ON-DEMAND enrollment, contact the lecturer <a href="https://www.linkedin.com/in/mionescu/" target="_blank" title="LinkedIn Profile" class="text-orange-500 hover:text-orange hover:underline"><b>Mihai Ionescu</b></a>.
+                                    </div>
                                     <div class="mb-4">
-                                <span class="mb-3 mt-3 text-lg font-bold uppercase text-orange-500 sm:text-xl">
-                                  INDIVIDUAL (FULL FEE)
-                                </span>
+                                        <span class="mb-3 mt-3 text-lg font-bold uppercase text-orange-500 sm:text-xl">
+                                          INDIVIDUAL (On-Demand)
+                                        </span>
                                         <p class="text-lg lg:text-base font-medium">
-                                            This fee is applicable for individual enrollments in on-demand course editions. We employ a consistent
+                                            This fee is applicable for individual enrollments of 3 or more persons in dedicated on-demand course editions. We employ a consistent
                                             <b>Fair Pricing Policy</b> that is applicable for each country, based on GDP per capita (<a href="https://www.worldbank.org/en/programs/icp/brief/VC_Uses" target="_blank" class="text-orange-500 hover:text-orange hover:underline">World Bank</a>) and Purchasing Power Parity.
                                             Select your country to get the specific enrollment fee.
                                             The course is not available in certain restricted countries (Russia, Belarus, Iran, N.Korea, etc.).
@@ -815,7 +818,7 @@
                             </div>
                             <div class="w-full mt-4 px-6 lg:w-1/2 vertical-align-top">
                                 <div class="inset-y-0 left-0 text-black dark:text-white">
-                                    <h2 class="mb-3 text-3xl font-lg text-blue-700 dark:text-orange-400 font-thin leading-tight text-black dark:text-white md:text-[45px]">
+                                    <h2 class="mb-3 text-3xl font-lg font-thin leading-tight md:text-[45px]">
                                         Get Onboard!
                                     </h2>
                                     <div class="mb-4">
@@ -883,7 +886,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 512 512" class="mt-[4px] mr-2">
                                                 <path opacity="1" fill="#8b5cf6" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
                                             </svg>
-                                            info&nbsp;@&nbsp;strategsys.com
+                                            mionescu&nbsp;@&nbsp;strategsys.com
                                         </div>
                                     </div>
                                 </div>
