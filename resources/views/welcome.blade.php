@@ -121,11 +121,6 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#schedule" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
-                                Schedule
-                            </a>
-                        </li>
-                        <li>
                             <a href="#enroll" @click="navbarOpen = !navbarOpen" class="scroll-menu menu-scroll flex py-2 lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12 text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                 Enrollment
                             </a>
@@ -195,11 +190,6 @@
                                     </p>
                                 </div>
                                 <h1 class="sm:flex gap-8 text-2xl items-center lg:text-left sm:max-w-xl mt-8 mb-8">
-                                    <div>
-                                        <div class="font-lg text-blue-700 dark:text-orange-400 font-bold text-ocre">
-                                            A RapidStrategy Add-on.
-                                        </div>
-                                    </div>
                                     <div class="flex flex-row item-center justify-center gap-2 mt-2">
                                         <a href="https://rapidstrategy.ai" target="_blank">
                                             <img src="{{ asset('images/hero/RapidStrategy_logo.png') }}" alt="Open"
@@ -223,6 +213,11 @@
                                         </button>
                                     </div>
                                 </h1>
+                                <div>
+                                    <div class="font-lg text-blue-700 dark:text-orange-400 font-bold text-ocre">
+                                        A RapidStrategy Add-on.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -296,7 +291,7 @@
                                     </div>
                                 </h3>
                                 <p class="font-medium text-gray-700 dark:text-gray-300 text-lg lg:text-base">
-                                    A course delivered LIVE, online, with two types of sessions: Course Sessions and Practice Sessions.
+                                    A self-paced & live Q&A course delivered online, with two types of sessions: Course Sessions and Practice Sessions.
                                     The AI-powered practice environment allows us to accommodate multiple participants, each working on his/her own Case Study.
                                 </p>
                             </div>
@@ -313,12 +308,11 @@
                                                 <path opacity="1" fill="#8b5cf6" d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/>
                                             </svg>
                                         </div>
-                                        <div class="font-lg text-blue-700 dark:text-orange-400 font-thin">Cohort-Based</div>
+                                        <div class="font-lg text-blue-700 dark:text-orange-400 font-thin">Self-Paced & Live Q&A</div>
                                     </div>
                                 </h3>
                                 <p class="font-medium text-gray-700 dark:text-gray-300 text-lg lg:text-base">
-                                    One Courses session + one Practice session per week. Five weeks, with a Kick-off session before and a Wrap-up after.
-                                    Four time-zone based cohorts, with the sessions scheduled at comfortable times for all participants.
+                                    The course includes pre-recorded video sessions for both theory and practice. Supplementary, it includes 1-hour Q&A sessions delivered live, online.
                                 </p>
                             </div>
                         </div>
@@ -394,8 +388,8 @@
                         The Feedback
                     </h2>
                     <p class="text-lg font-medium text-gray-700 dark:text-gray-300">
-                        The previous nine course editions have provided very valuable calibration data, but also a good feedback
-                        from many of the 300+ Strategy practitioners and consultants from five continents and 46 countries who have enrolled in the course.
+                        The ten live course editions (Feb 2024 - Apr 2026) have provided very valuable calibration data, but also a good feedback
+                        from many of the 350+ Strategy practitioners and consultants from five continents and 46 countries who have enrolled in the course.
                     </p>
                 </div>
                 <!-- Participants Map -->
@@ -783,64 +777,6 @@
                 <div class="parallax hidden lg:block w-full min-w-[360px] content-center"></div>
             </section>
 
-            <!-- Schedule Section start -->
-            <section id="schedule" class="w-full min-w-[360px] max-w-full pb-4 mx:auto px-4 sm:px-6 lg:px-8 align-center bg-white dark:bg-[#14102C]">
-                <div class="w-full pb-12 px-2 bg-white dark:bg-[#14102C]">
-                    <div class="pt-[120px] text-center md:w-3/4 ml-auto mr-auto">
-                    <span class="mb-3 text-3xl font-bold uppercase text-orange-500">
-                        SCHEDULE
-                    </span>
-                        <h2 class="mt-4 mb-3 text-3xl font-lg text-blue-700 dark:text-orange-400 font-thin leading-tight text-black dark:text-white md:text-[45px]">
-                            The Cohorts
-                        </h2>
-                        <p class="text-lg lg:text-base font-medium text-left text-gray-700 dark:text-gray-300 lg:max-width:60%">
-                            The course sessions are scheduled for four cohorts, on the same days. Tuesdays for the Course Sessions
-                            and Thursdays for the Practice Sessions. For the latter, we use an application (<a href="https://rapidstrategy.ai" target="_blank" class="text-orange-500 hover:text-orange hover:underline">RapidStrategy</a>) that facilitate the logical decisions
-                            (based on the <a href="https://strategyclockwork.com" target="_blank" class="text-orange-500 hover:text-orange hover:underline">Strategy Clockwork</a> framework), for building each participant's Case Study models.
-                        </p>
-                        <p class="text-lg lg:text-base font-medium text-left text-gray-300-1 mt-2 dark:text-gray-300 lg:max-width:60%">
-                            Since the cohorts are time-zone-based, the three-hour sessions start at comfortable times for all participants.
-                            One cohort for the Americas, one for Europe, Middle East, and Africa (EMEA), one for Asia, and one for the Pacific area.
-                        </p>
-                        <p class="text-lg lg:text-base font-medium text-left text-gray-300-1 mt-2 dark:text-gray-300 lg:max-width:60%">
-                            Between the sessions, the teams have chat channels available on the <a href="https://strategycourse.com" target="_blank" class="text-orange-500 hover:text-orange hover:underline">Strategy Course</a> eLearning platform
-                            that we use for this course.
-                            The course uses the 24/7-available multilingual video-conferencing facility provided by <a href="https://meet.google.com" target="_blank" class="text-orange-500 hover:text-orange hover:underline">Google Meet</a>.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="border-box min-w-[360px] w-full bg-white dark:bg-[#14102C]">
-                    <div>
-                        <div class="w-full content-center px-2">
-                            <img src="{{ asset('images/hero/Course_Dates_April2026-light.png') }}" alt="diagram" class="block w-full lg:w-3/5 mx-auto dark:hidden"/>
-                            <img src="{{ asset('images/hero/Course_Dates_April2026-dark.png') }}" alt="diagram" class="hidden w-full lg:w-3/5 mx-auto dark:block"/>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <section class="w-full min-w-[360px] max-w-full pb-8 mx:auto px-4 sm:px-6 lg:px-8 align-center bg-[#F2F0FE] dark:bg-[#14102C]">
-                <div class="w-full pt-4 pb-0 mt-8 px-2 bg-[#F2F0FE] dark:bg-[#14102C] text-left md:text-center items-center">
-                    <div class="max-w-[800px] mx-auto text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300">
-                        The timings of the sessions have been chosen for covering all time-zones with business hours and evening hours alternatives.
-                        It is not mandatory to join your region's cohort. If you can acomodate other cohorts' times, pick the one that works best for you.
-                        The cohort times are 6 hours apart.
-                    </div>
-                </div>
-
-                <div class="border-box py-4 min-w-[360px] max-w-full bg-[#F2F0FE] dark:bg-[#14102C]">
-                    <div>
-                        <div class="w-full content-center px-2 lg:px-10">
-                            <img src="{{ asset('images/hero/Course_Times_April2026-light.png') }}" alt="diagram" class="block w-full lg:w-4/5 mx-auto dark:hidden"/>
-                            <img src="{{ asset('images/hero/Course_Times_April2026-dark.png') }}" alt="diagram" class="hidden w-full lg:w-4/5 mx-auto dark:block"/>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Schedule Section end -->
-
             <!-- Enrollment Fees -->
             <section id="enroll" class="w-full min-w-[360px] max-w-full pt-[120px] pb-8 z-10 mx:auto px-4 sm:px-6 lg:px-8 bg-light-bg dark:bg-[#14102C]">
                 <div class="mb-4">
@@ -930,9 +866,6 @@
                                     </a>
                                     <a href="#curriculum" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Course Curriculum
-                                    </a>
-                                    <a href="#schedule" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
-                                        Course Schedule
                                     </a>
                                     <a href="#enroll" class="scroll-menu menu-scroll block text-base font-medium text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-orange-500">
                                         Cohort Enrollment
