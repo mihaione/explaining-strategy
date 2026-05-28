@@ -173,8 +173,8 @@
                         <!-- Hero text -->
                         <div class="w-full lg:w-3/5 px-4 z-10">
                             <div class="mb-4 w-full pb-4">
-                                <h1 class="w-full font-bold text-3xl leading-tight md:leading-tight xs:text-center lg:text-left sm:max-w-lg mx-4 sm:ml-0 mb-4 ml-0 text-ocre">
-                                    <span class="font-lg text-blue-700 dark:text-orange-400">The AI-Powered Strategy</span>
+                                <h1 class="w-full font-bold text-3xl leading-tight md:leading-tight xs:text-center lg:text-left sm:max-w-lg mx-4 sm:ml-0 mb-4 ml-0 text-blue-700 dark:text-orange-400">
+                                        The AI-Powered Strategy
                                 </h1>
                                 <div class="w-full text-lg text-white mb-8">
                                     <p class="mb-4">
@@ -214,7 +214,7 @@
                                     </div>
                                 </h1>
                                 <div>
-                                    <div class="font-3xl text-blue-700 dark:text-orange-400 font-bold text-ocre">
+                                    <div class="w-full font-bold text-3xl leading-tight md:leading-tight xs:text-center lg:text-left sm:max-w-lg mx-4 sm:ml-0 mb-4 ml-0 text-blue-700 dark:text-orange-400">
                                         A RapidStrategy Add-on Feature.
                                     </div>
                                 </div>
