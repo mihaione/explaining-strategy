@@ -214,8 +214,8 @@
                                     </div>
                                 </h1>
                                 <div>
-                                    <div class="font-lg text-blue-700 dark:text-orange-400 font-bold text-ocre">
-                                        A RapidStrategy Add-on.
+                                    <div class="font-3xl text-blue-700 dark:text-orange-400 font-bold text-ocre">
+                                        A RapidStrategy Add-on Feature.
                                     </div>
                                 </div>
                             </div>
