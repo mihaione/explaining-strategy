@@ -292,7 +292,7 @@
                                     </div>
                                 </h3>
                                 <p class="font-medium text-gray-700 dark:text-gray-300 text-lg lg:text-base">
-                                    A self-paced & live Q&A course delivered online, with two types of sessions: Course Sessions and Practice Sessions.
+                                    A self-paced & live Q&A course delivered online, with Course Sessions and Practice Sessions.
                                     The AI-powered practice environment allows us to accommodate multiple participants, each working on his/her own Case Study.
                                 </p>
                             </div>
@@ -309,7 +309,7 @@
                                                 <path opacity="1" fill="#8b5cf6" d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/>
                                             </svg>
                                         </div>
-                                        <div class="font-lg text-blue-700 dark:text-orange-400 font-thin">Self-Paced & Live Q&A</div>
+                                        <div class="font-lg text-blue-700 dark:text-orange-400 font-thin">Live Q&A Sessions</div>
                                     </div>
                                 </h3>
                                 <p class="font-medium text-gray-700 dark:text-gray-300 text-lg lg:text-base">
@@ -376,7 +376,7 @@
                                 </h3>
                                 <p class="font-medium text-gray-700 dark:text-gray-300 text-lg lg:text-base">
                                     The Explaining Strategy course provides the participants with the ability to watch the course sessions
-                                    font-lg text-blue-700 dark:text-orange-400d in their own language, in real time. The session transcript notes are also multilingual.
+                                    in their own language (in real time for the Q&A live sessions). The session transcripts are also multilingual.
                                 </p>
                             </div>
                         </div>
@@ -390,7 +390,7 @@
                     </h2>
                     <p class="text-lg font-medium text-gray-700 dark:text-gray-300">
                         The ten live course editions (Feb 2024 - Apr 2026) have provided very valuable calibration data, but also a good feedback
-                        from many of the 350+ Strategy practitioners and consultants from five continents and 46 countries who have enrolled in the course.
+                        from many of the almost 350 Strategy practitioners & consultants from five continents and 47 countries who have enrolled in the course.
                     </p>
                 </div>
                 <!-- Participants Map -->
@@ -794,14 +794,14 @@
                             <div class="w-full mt-4 px-6 lg:w-1/2">
                                 <div class="inset-y-0 left-0 text-gray-700 dark:text-gray-300">
                                     <h2 class="mb-3 text-3xl font-lg text-blue-700 dark:text-orange-400 font-thin leading-tight text-black dark:text-white md:text-[45px]">
-                                        Enrollment Fee
+                                        Enrollment Fee (On-Demand)
                                     </h2>
                                     <div class="mb-4">
                                 <span class="mb-3 mt-3 text-lg font-bold uppercase text-orange-500 sm:text-xl">
                                   INDIVIDUAL (FULL FEE)
                                 </span>
                                         <p class="text-lg lg:text-base font-medium">
-                                            This fee is applicable for individual enrollments. Starting from this course edition, we employ a consistent
+                                            This fee is applicable for individual enrollments in on-demand course editions. We employ a consistent
                                             <b>Fair Pricing Policy</b> that is applicable for each country, based on GDP per capita (<a href="https://www.worldbank.org/en/programs/icp/brief/VC_Uses" target="_blank" class="text-orange-500 hover:text-orange hover:underline">World Bank</a>) and Purchasing Power Parity.
                                             Select your country to get the specific enrollment fee.
                                             The course is not available in certain restricted countries (Russia, Belarus, Iran, N.Korea, etc.).
