@@ -158,7 +158,7 @@
                     </div>
 
                     <div class="sm:flex z-10 ml-auto mr-4 md:mr-0">
-                        <a href="https://explaining-strategy.disco.co/login" target="_blank" title="Login to Disco" class="flex h-11 px-6 py-2 items-center justify-center bg-white dark:bg-gray-800 rounded-xl border border-gray-400 text-base font-semibold text-gray-700 hover:bg-gray-200 hover:border-black dark:hover:border-gray-600 hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-orange-300">
+                        <a href="https://strategycourse.com" target="_blank" title="Login to StrategyCourse" class="flex h-11 px-6 py-2 items-center justify-center bg-white dark:bg-gray-800 rounded-xl border border-gray-400 text-base font-semibold text-gray-700 hover:bg-gray-200 hover:border-black dark:hover:border-gray-600 hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-orange-300">
                             Login
                         </a>
                     </div>
@@ -206,15 +206,10 @@
                                                  class="w-[120px] h-[120px]">
                                         </a>
                                         <a href="#enroll" class="scroll-menu menu-scroll">
-                                            <img src="{{ asset('images/hero/fair-pricing.png') }}" alt="Enroll!"
+                                            <img src="{{ asset('images/hero/fair-pricing.png') }}" alt="fair Pricing"
                                                  class="w-[120px] h-[120px] rounded-full">
                                         </a>
                                     </div>
-                                </h1>
-                                <div class="hidden md:flex items-center gap-8 mt-12">
-                                    <a href="#enroll" class="scroll-menu whitespace-nowrap menu-scroll mt-6 py-2 px-10 text-base font-bold rounded-xl transition-all rounded-xl border text-gray-200 hover:bg-gray-200 hover:border-black dark:hover:border-gray-600 hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-orange-300">
-                                        Enroll Now
-                                    </a>
                                     <div class="text-center">
                                         <div class="whitespace-nowrap text-center text-white -mt-2 mb-3">
                                             Watch Intro
@@ -227,40 +222,7 @@
                                             </span>
                                         </button>
                                     </div>
-                                    <!-- Countdown Timer -->
-                                    <div class="flex flex-wrap items-center justify-start">
-                                        <div class="w-full">
-                                            <div class="countdown whitespace-nowrap text-white text-center">
-                                                Time until course start:<br />
-                                                <a href="#schedule" class="scroll-menu menu-scroll text-base text-orange-500 transition-all hover:text-orange-500">
-                                                    <div class="gap-8 justify-center">
-                                                        <div class="flex flex-wrap my-2 py-2 justify-center gap-4 bg-white dark:bg-gray-800 rounded-full ml-auto mr-auto bg-opacity-20 rounded-full w-60 z-30"
-                                                             x-data="timer()" x-init="countdown()">
-                                                            <div class="flex w-12 h-12 content-center rounded-full">
-                                                                <div class="text-white m-auto  text-center leading-none">
-                                                                    <div id="days" class="block font-bold text-xl -mt-1 invisible" x-text="days">0</div>
-                                                                    <div class="block text-xs -mt-1">Days</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="flex w-12 h-12 content-center rounded-full">
-                                                                <div class="text-white m-auto text-center">
-                                                                    <div id="hours" class="block font-bold text-xl -mt-1 1 invisible" x-text="hours">0</div>
-                                                                    <div class="block text-xs -mt-1">Hours</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="flex w-12 h-12 content-center rounded-full">
-                                                                <div class="text-white m-auto text-center">
-                                                                    <div id="minutes" class="block font-bold text-xl -mt-1 1 invisible" x-text="minutes">0</div>
-                                                                    <div class="block text-xs -mt-1">Min</div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                </h1>
                             </div>
                         </div>
                     </div>
@@ -841,7 +803,7 @@
                             One cohort for the Americas, one for Europe, Middle East, and Africa (EMEA), one for Asia, and one for the Pacific area.
                         </p>
                         <p class="text-lg lg:text-base font-medium text-left text-gray-300-1 mt-2 dark:text-gray-300 lg:max-width:60%">
-                            Between the sessions, the teams have chat channels available on the <a href="https://disco.co" target="_blank" class="text-orange-500 hover:text-orange hover:underline">Disco</a> learning platform
+                            Between the sessions, the teams have chat channels available on the <a href="https://strategycourse.com" target="_blank" class="text-orange-500 hover:text-orange hover:underline">Strategy Course</a> eLearning platform
                             that we use for this course.
                             The course uses the 24/7-available multilingual video-conferencing facility provided by <a href="https://meet.google.com" target="_blank" class="text-orange-500 hover:text-orange hover:underline">Google Meet</a>.
                         </p>
@@ -924,143 +886,11 @@
                                   Enrollment Steps
                                 </span>
                                         <p class="text-lg lg:text-base mb-4 font-medium text-gray-700 dark:text-gray-300">
-                                            Enroll in your region's cohort below (APAC, EMEA, or AMERICAS). You can also enroll in other cohorts, as long as there are still seats available there.
-                                            Check first the sessions times, in the <a href="#schedule" class="text-orange-500 hover:text-orange hover:underline">Schedule</a> section above, to see if they suit your daily agenda.
+                                            Subscribe to a team package of RapidStrategy <a href="https://rapidstrategy.ai" class="text-orange-500 hover:text-orange hover:underline">RapidStrategy</a>.
                                         </p>
                                         <p class="text-lg lg:text-base mb-2 font-medium text-gray-700 dark:text-gray-300">
-                                            Click your region's globe image below, then go through these steps:
+                                            Follow the instructions to join the course at any time that suits you.
                                         </p>
-                                        <p class="text-lg lg:text-base mb-2 font-medium text-gray-700 dark:text-gray-300">
-                                            <b>1.</b> Click the <span class="text-orange font-bold dark:text-ocre dark:font-normal">Register Now</span> button<br />
-                                        </p>
-                                        <p class="text-lg lg:text-base mb-2 font-medium text-gray-700 dark:text-gray-300">
-                                            <b>2.</b> Acknowledge the terms & conditions (Disco.co)<br />
-                                        </p>
-                                        <p class="text-lg lg:text-base mb-2 font-medium text-gray-700 dark:text-gray-300">
-                                            <b>3.</b> Enter your name and e-mail address<br />
-                                        </p>
-                                        <p class="text-lg lg:text-base mb-2 font-medium text-gray-700 dark:text-gray-300">
-                                            <b>4.</b> Click the <span class="text-orange font-bold dark:text-ocre dark:font-normal">Start Application</span> button<br />
-                                        </p>
-                                        <p class="text-lg lg:text-base mb-2 font-medium text-gray-700 dark:text-gray-300">
-                                            <b>5.</b> Answer the localization question (your country’s name)<br />
-                                        </p>
-                                        <p class="text-lg lg:text-base mb-2 font-medium text-gray-700 dark:text-gray-300">
-                                            <b>6.</b> Enter the <b>discount code</b> applicable (see Enrollment Fee) and the card details for pre-authorization.<br />
-                                        </p>
-                                        <p class="text-lg lg:text-base mb-2 font-medium text-gray-700 dark:text-gray-300">
-                                            The card will be charged only upon enrollment approval (usually, within the same day).
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Enrollment Links -->
-                        <div class="flex flex-wrap justify-center -mx-4 mt-4">
-                            <!-- AMERICAS Enrollment -->
-                            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-                                <div class="mx-auto mb-14 max-w-[270px] text-center">
-                                    <div class="mx-auto mb-2 flex h-50 w-50 items-center justify-center">
-                                        <a href="https://explaining-strategy.disco.co/p/a10-explaining-strategy/register" target="_blank" title="Enroll at Disco.co">
-                                            <img src="{{ asset('images/hero/americas.png') }}" alt="icon" class="w-3/5 mx-auto"/>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <p class="text-center text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300 sm:text-lg xl:text-lg">
-                                            Click for enrollment
-                                        </p>
-                                        <p class="text-center text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300 sm:text-lg xl:text-lg">
-                                            <a href="https://explaining-strategy.disco.co/p/a10-explaining-strategy/register" target="_blank" class="text-orange-500 dark:text-orange-500 cursor-pointer" title="Enroll at Disco.co">Cohort A: AMERICAS</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- EMEA Enrollment -->
-                            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-                                <div class="mx-auto mb-14 max-w-[270px] text-center">
-                                    <div class="mx-auto mb-2 flex h-50 w-50 items-center justify-center">
-                                        <a href="https://explaining-strategy.disco.co/p/b10-explaining-strategy/register" target="_blank" title="Enroll at Disco.co">
-                                            <img src="{{ asset('images/hero/emea.png') }}" alt="icon" class="w-3/5 mx-auto"/>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <p class="text-center text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300 sm:text-lg xl:text-lg">
-                                            Click for enrollment
-                                        </p>
-                                        <p class="text-center text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300 sm:text-lg xl:text-lg">
-                                            <a href="https://explaining-strategy.disco.co/p/b10-explaining-strategy/register" target="_blank" class="text-orange-500 dark:text-orange-500 cursor-pointer" title="Enroll at Disco.co">Cohort B: EMEA</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- ASIA Enrollment -->
-                            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-                                <div class="mx-auto mb-14 max-w-[270px] text-center">
-                                    <div class="mx-auto mb-2 flex h-50 w-50 items-center justify-center">
-                                        <a href="https://explaining-strategy.disco.co/p/c10-explaining-strategy/register" target="_blank" title="Enroll at Disco.co">
-                                            <img src="{{ asset('images/hero/asia.png') }}" alt="icon" class="w-3/5 mx-auto"/>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <p class="text-center text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300 sm:text-lg xl:text-lg">
-                                            Click for enrollment
-                                        </p>
-                                        <p class="text-center text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300 sm:text-lg xl:text-lg">
-                                            <a href="https://explaining-strategy.disco.co/p/c10-explaining-strategy/register" target="_blank" class="text-orange-500 dark:text-orange-500 cursor-pointer" title="Enroll at Disco.co">Cohort C: ASIA</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- PACIFIC Enrollment -->
-                            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-                                <div class="mx-auto mb-14 max-w-[270px] text-center">
-                                    <div class="mx-auto mb-2 flex h-50 w-50 items-center justify-center">
-                                        <a href="https://explaining-strategy.disco.co/p/d10-explaining-strategy/register" target="_blank" title="Enroll at Disco.co">
-                                            <img src="{{ asset('images/hero/pacific.png') }}" alt="icon" class="w-3/5 mx-auto"/>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <p class="text-center text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300 sm:text-lg xl:text-lg">
-                                            Click for enrollment
-                                        </p>
-                                        <p class="text-center text-lg lg:text-base font-medium text-gray-700 dark:text-gray-300 sm:text-lg xl:text-lg">
-                                            <a href="https://explaining-strategy.disco.co/p/d10-explaining-strategy/register" target="_blank" class="text-orange-500 dark:text-orange-500 cursor-pointer" title="Enroll at Disco.co">Cohort D: PACIFIC</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Enrollment Links end-->
-
-                        <!-- Download Section start -->
-                        <div class="-mx-4 flex flex-wrap items-center align-items-start">
-                            <div class="w-full mt-4 px-4 lg:w-1/2">
-                                <div class="inset-y-0 left-0 text-black dark:text-white">
-                                    <h2 class="mb-3 font-lg text-blue-700 dark:text-orange-400 font-thin leading-tight text-black dark:text-white md:text-[45px]">
-                                        Course Prospectus
-                                    </h2>
-                                    <div class="text-lg lg:text-base mb-4 text-gray-700 dark:text-gray-300">
-                                        Use the Course Prospectus together with the Educational Support Request Letter for obtaining course enrollment fee financing
-                                        from your employer. The Prospectus includes the course curricula and cohort details.<br /><br />
-                                        <a href="{{ asset('/downloads/Course-Prospectus-April2026.pdf') }}" target="_blank" title="GO to LinkedIn"  class="block text-base font-medium text-orange-500 hover:text-orange-500 dark:text-orange-500 dark:hover:text-orange-500">
-                                            Download Prospectus
-                                        </a>
-                                        (PDF 6.7MB)
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w-full mt-4 px-4 lg:w-1/2">
-                                <div class="inset-y-0 left-0 text-black dark:text-white">
-                                    <h2 class="mb-3 font-lg text-blue-700 dark:text-orange-400 font-thin leading-tight text-black dark:text-white md:text-[45px]">
-                                        Educational Support
-                                    </h2>
-                                    <div class="text-lg lg:text-base mb-4 text-gray-700 dark:text-gray-300">
-                                        Use the Educational Support Request Letter together with the Course Prospectus for obtaining course enrollment fee financing
-                                        from your employer. The Prospectus includes the course curricula and cohort details.<br /><br />
-                                        <a href="{{ asset('/downloads/Educational-Support-Request_template_April2026.docx') }}" target="_blank" title="GO to LinkedIn"  class="block text-base font-medium text-orange-500 hover:text-orange-500 dark:text-orange-500 dark:hover:text-orange-500">
-                                            Download the Educational Support Request Letter
-                                        </a>
-                                        (Microsoft Word .docx 17kB)
                                     </div>
                                 </div>
                             </div>
