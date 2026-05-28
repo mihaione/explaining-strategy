@@ -250,7 +250,7 @@
                         A Course to Remember
                     </h2>
                     <p class="text-lg font-medium text-gray-700 dark:text-gray-300">
-                        This is not a motivational lecture. It is a course that provides a solid, practice-based, instrumental blueprint for managing the Strategy. It is the first ever Strategy course with practice sessions 100% AI-powered. How do we do this? By using the new breakthrough <a href="https://rapidstrategy.ai">RapidStrategy</a> platform.
+                        This is not a motivational lecture. It is a course that provides a solid, practice-based, instrumental blueprint for managing the Strategy. It is the first ever Strategy course with practice sessions 100% AI-powered. How do we do this? By using the <a href="https://rapidstrategy.ai">RapidStrategy</a> platform.
                     </p>
                 </div>
                 <!-- Features Row 1 -->
