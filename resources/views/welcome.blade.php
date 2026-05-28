@@ -178,7 +178,7 @@
                                 </h1>
                                 <div class="w-full text-lg text-white mb-8">
                                     <p class="mb-4">
-                                        Strategy is not simple, but it is built on simple concepts. This practice-focused live course helps us clarify these concepts and how they are assembled into a logical construct that AI can now take control of, with humans-in-the-loop.
+                                        Strategy is not simple, but it is built on simple concepts. This practice-focused live course helps us clarify these concepts and how they are assembled into a logical construct that AI can take control of, with human-in-the-loop.
                                     </p>
                                     <p class="mb-6">
                                         <a href="https://www.linkedin.com/in/mionescu/" target="_blank" title="LinkedIn Profile" class="text-orange-500 hover:text-orange hover:underline"><b>Mihai Ionescu</b></a>

@@ -54,9 +54,9 @@ new class extends Component {
     </form>
     <p class="text-lg lg:text-base mb-3 mt-3 font-medium sm:text-xl">
         @if (!$hasFees)
-            Your Fair Price enrollment fee: <span class="font-bold text-blue-700 dark:text-orange-400"> ... USD</span>
+            Your Fair Price enrollment fee: <span class="font-bold text-blue-700 dark:text-orange-400"> ... USD per person</span>
         @else
-            Your Fair Price enrollment fee: <span class="ml-1 font-bold text-blue-700 dark:text-orange-400">{{ number_format($full_fee) }} USD</span>
+            Your Fair Price enrollment fee: <span class="ml-1 font-bold text-blue-700 dark:text-orange-400">{{ number_format($full_fee) }} USD per person</span>
             <br/>
             <span class="flex">
                 Your discount code: <span id="copy1" class="discount1 ml-1 font-bold text-blue-700 dark:text-orange-400">{{ $discount_full }}</span>
