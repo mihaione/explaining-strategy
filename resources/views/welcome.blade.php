@@ -59,7 +59,7 @@
             <!-- Logo -->
             <div class="min-w-[100px]">
                 <a href="#home" class="menu-scroll block py-2 ml-2" :class="scrolledFromTop && '!py-4 lg:!py-2'">
-                    <img src="{{ asset('images/logo/new-logo-course1.png') }}" alt="logo" width="183" height="73" />
+                    <img src="{{ asset('images/logo/new-logo-course2.png') }}" alt="logo" width="183" height="73" />
                 </a>
             </div>
 
@@ -848,7 +848,7 @@
                         <div class="border-box w-full md:ml-0 md:w-1/2 lg:w-4/12 xl:w-4/12">
                             <div class="mb-14 max-w-[330px] xl:mb-20">
                                 <a href="{{ url("/") }}" class="mb-6 inline-block">
-                                    <img src="{{ asset('images/logo/new-logo-course1.png') }}" width="183" height="73" alt="logo"/>
+                                    <img src="{{ asset('images/logo/new-logo-course2.png') }}" width="183" height="73" alt="logo"/>
                                 </a>
                                 <p class="text-lg lg:text-base mb-10 ml-4 font-medium text-gray-700 dark:text-gray-300">
                                     Join Explaining Strategy, a course based on the unique, integrative Strategy Clockwork framework

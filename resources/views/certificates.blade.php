@@ -39,7 +39,7 @@
                 <!-- Logo -->
                 <div class="w-60 max-w-full">
                     <a href="{{ url('/') }}" :class="scrolledFromTop && '!py-4 lg:!py-2'" class="menu-scroll block w-full py-6 lg:py-5">
-                        <img src="{{ asset('images/logo/new-logo-course1.png') }}" alt="logo" class="w-full"/>
+                        <img src="{{ asset('images/logo/new-logo-course2.png') }}" alt="logo" class="w-full"/>
                     </a>
                 </div>
 
